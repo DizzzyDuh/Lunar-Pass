@@ -1,0 +1,52 @@
+#addShuttle {
+	max-width: 300px;
+	margin: 5% auto;
+	background-color: white;
+	padding: 10px 20px 30px;
+}
+
+#addShuttle .title {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+#addShuttle label {
+	display: block;
+	font-size: 1.1rem;
+}
+
+#addShuttle input {
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	margin-top: 4px;
+	width: 90%;
+	background-color: gainsboro;
+	border: none;
+}
+
+#addShuttle input:focus {
+	outline: none;
+	border: none;
+}
+
+#addShuttle .submit {
+	border: none;
+	padding: 8px 20px;
+	background-color: black;
+	color: white;
+	margin-bottom: 15px;
+}
+
+#addShuttle .checkbox {
+	width: fit-content;
+	margin: 10px 0px;
+}
+
+#addShuttle .checkbox label {
+	display: inline;
+}
+
+#addShuttle .checkbox input {
+	width: min-content;
+}

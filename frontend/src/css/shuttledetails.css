@@ -1,0 +1,123 @@
+.goback {
+	width: fit-content;
+	padding: 5px 15px;
+	background-color: black;
+	margin: 15px 100px;
+}
+
+.back {
+	color: white;
+	text-decoration: none;
+}
+
+#shuttleDetails {
+	max-width: 980px;
+	margin: auto;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: 60% 40%;
+	background-color: white;
+	padding: 25px 20px;
+}
+
+#shuttleDetails .title {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#shuttleDetails .fa-fighter-jet,
+#shuttleDetails .grid-container i {
+	color: rgb(122, 122, 122);
+	text-shadow: 0px 0px 0.2px black;
+}
+
+#shuttleDetails em {
+	font-weight: 500;
+}
+
+#shuttleDetails .grid-container {
+	margin-top: 0px;
+	padding: 5px 30px 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+}
+
+/* Right */
+#shuttleDetails .right {
+	text-align: center;
+}
+
+#shuttleDetails .right .title {
+	margin-bottom: 20px;
+}
+
+#shuttleDetails .right img {
+	max-height: 600px;
+	margin: auto;
+	padding-right: 20px;
+	/* border-right: 1px solid gray; */
+}
+
+/* Ul and Li of note */
+#shuttleDetails .note {
+	margin: 20px auto;
+	margin-right: 5px;
+	width: 90%;
+	background-color: rgb(236, 236, 236);
+	padding: 5px 10px;
+	color: black;
+	border-radius: 5px;
+	font-size: 0.9rem;
+}
+
+#shuttleDetails .start-booking {
+	margin-top: 50px;
+}
+
+#shuttleDetails .start-booking .form-container {
+	width: fit-content;
+	padding: 30px 20px;
+	margin: 30px auto;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+#shuttleDetails hr {
+	width: 100%;
+	margin: 20px;
+	border: 1px solid gainsboro;
+}
+
+#shuttleDetails .start-booking .form-container label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#shuttleDetails .start-booking .form-container select {
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	padding: 5px 15px;
+}
+
+#shuttleDetails .enterDetails .enter {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#shuttleDetails .seats-button {
+	display: block;
+	margin: 15px auto;
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 5px 15px;
+	font-size: 1.1rem;
+	border-radius: 5px;
+}
